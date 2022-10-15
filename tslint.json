@@ -1,0 +1,24 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:latest"
+    ],
+    "jsRules": {},
+    "rules": {
+        "trailing-comma": [false],
+        "variable-name": [
+            false,
+            "allow-leading-underscore"
+        ],
+        "no-shadowed-variable": [false],
+        "no-console": [false]
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [
+            "src/api/*",
+            "src/app.ts",
+            "src/models.ts"
+        ]
+    }
+}
